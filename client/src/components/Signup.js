@@ -56,14 +56,7 @@ const Signup = () => {
     const formErrors = validateForm();
     if (Object.keys(formErrors).length === 0) {
       try {
-        // const response = await fetch('https://tripx-webapp-backend.onrender.com/api/v1/signup', {
-        //   method: 'POST',
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //   },
-        //   body: JSON.stringify(formData),
-        // });
-        const response = await fetch(`${process.env.REACT_APP_API_URL}/v1/signup`, {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/v1/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
