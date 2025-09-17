@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware for handling CORS
 app.use(cors({
-  origin: ['https://tripx-webapp-client.onrender.com', 'http://localhost:3000'], // Replace with your frontend origin
+  origin: ['https://tripx-home.onrender.com', 'http://localhost:3000'], // Replace with your frontend origin
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
