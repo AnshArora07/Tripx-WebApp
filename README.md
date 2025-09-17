@@ -9,7 +9,6 @@ TripX is a comprehensive travel and tourism web application built using the MERN
 - **Hotel Booking**: Book hotels in major cities with detailed information.
 - **Wishlist**: Save favorite tour packages using a wishlist feature.
 - **Authentication**: Secure user login with private and public routing.
-- **Payment Gateway**: Seamless payment integration using Stripe.
 - **Responsive UI**: A user-friendly and responsive interface built with Tailwind CSS.
 
 ---
@@ -31,8 +30,8 @@ TripX is a comprehensive travel and tourism web application built using the MERN
 ---
 
 ## 🔗 **Links**
-- Live Demo: https://tripx-webapp-client.onrender.com/
-- GitHub Repository: https://github.com/anshgaba23304/Tripx-WebApp
+- Live Demo: https://tripx-home.onrender.com/
+- GitHub Repository: https://github.com/AnshArora07/Tripx-WebApp
 
 ---
 
